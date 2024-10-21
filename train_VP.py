@@ -242,7 +242,7 @@ def main():
     parser.add_argument('--dataset', type=str, default='CIFAR10')
     parser.add_argument('--batch_size', type=int, default=64)
     parser.add_argument('--epoch', type=int, default=20)
-    parser.add_argument('--lr', type=float, default=0.05) # or 0.01 if the training is poor (eg, ResNet50, Wideresnet for TinyImagenet)
+    parser.add_argument('--lr', type=float, default=0.05) # or 0.01 if the training is poor (eg: Using ResNet50, Wideresnet for TinyImagenet)
     parser.add_argument('--LR_step', type=int, default=2)
     parser.add_argument('--gamma', type=float, default=0.7)
     parser.add_argument('--size', type=int, default=192)
