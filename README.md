@@ -1,5 +1,5 @@
 # TARP-VP
-Code for Neruips 2024 paper **TARP-VP: Towards Evaluation of Transferred Adversarial Robustness and Privacy on Label Mapping Visual Prompting Models**
+Code for Neruips 2024 paper: **TARP-VP: Towards Evaluation of Transferred Adversarial Robustness and Privacy on Label Mapping Visual Prompting Models**
 
 # Usage Examples
 VP black-box transfer AT for CIFAR10 using pre-trained Swin Transformer:  
