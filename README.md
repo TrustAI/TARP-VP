@@ -1,7 +1,7 @@
 # TARP-VP
 Code for Neruips 2024 paper **TARP-VP: Towards Evaluation of Transferred Adversarial Robustness and Privacy on Label Mapping Visual Prompting Models**
 
-# Usage
+# Usage Examples
 VP black-box transfer AT for CIFAR10 using pre-trained Swin Transformer:  
 python VP_CIFAR10.py --dataset 'CIFAR10' --lr 0.05 --mode 'AT' --model_name 'swin'   
 
