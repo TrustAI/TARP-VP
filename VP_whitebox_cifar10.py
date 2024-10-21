@@ -279,7 +279,7 @@ def train_model(dataset, test_dataset, args):
 
 def main():
     parser = argparse.ArgumentParser(description='pate train')
-    parser.add_argument('--seed', type=int, default=8872574) #4
+    parser.add_argument('--seed', type=int, default=8872574) 
     parser.add_argument('--device', type=str, default='cuda:0')
     parser.add_argument('--dataset', type=str, default='CIFAR10')
     parser.add_argument('--batch_size', type=int, default=64)
