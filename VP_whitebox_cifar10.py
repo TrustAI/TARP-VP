@@ -30,6 +30,7 @@ std = torch.tensor(cifar10_std).view(3,1,1).cuda()
 upper_limit = ((1 - mu)/ std)
 lower_limit = ((0 - mu)/ std)
 
+# To conduct white-box adversarial attacks, we use torchvision.transforms.Pad() to generate the visual prompts
 class reProgrammingNetwork(nn.Module):
     def __init__(self,args, input_size=224, patch_H_size=192, patch_W_size=192, channel_out=3, device="cpu") -> None:
         super().__init__()
